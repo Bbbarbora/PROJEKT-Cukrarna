@@ -35,10 +35,24 @@ body {
 	font-size: 18px;
 	line-height: 1.5;
 	color: #242424;
-	max-width: 1100px;
-	margin-right: auto;
-	margin-left: auto;
+	
 
+}
+
+.content {
+	max-width: 1100px;           /* Maximální šířka obsahu */
+    margin: 0 auto;
+	padding: 80px 0;
+}
+
+h1, h2, h3 {
+	font-family: "Playfair Display";
+	font-weight: 700;
+	color: #3e606b;
+}
+
+img {
+	border-radius: 5px;
 }
 
 footer {
@@ -93,3 +107,54 @@ header {
 
 }
 
+.hero{
+	background-image: url(images/cupcake.jpg);
+	color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.hero h1{
+	font-size: 56px;
+
+}
+
+.hero p{
+	font-size: 24px;
+	font-style: italic;
+	padding-right: 40%;
+}
+
+
+.welcome {
+	display: flex;
+	gap: 30px;
+}
+
+.welcome-right {
+	
+}
+
+.welcome-left {
+	flex-basis: 50%;
+}
+
+.todays-offer {
+	background-color: #f0f0f0;
+	display: flex;
+}
+
+.products {
+	display: flex;
+	gap: 30px;
+}
+
+.cake {
+	border-radius: 5px;
+}
+
+
+.pristup {
+	display: flex;
+	gap: 30px;
+}
