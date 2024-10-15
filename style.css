@@ -51,6 +51,10 @@ h1, h2, h3 {
 	color: #3e606b;
 }
 
+h2 {
+	font-size: 36px;
+}
+
 img {
 	border-radius: 5px;
 }
@@ -112,10 +116,12 @@ header {
 	color: white;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	
 }
 .hero h1{
 	font-size: 56px;
+	color: white;
 
 }
 
@@ -129,11 +135,12 @@ header {
 .welcome {
 	display: flex;
 	gap: 30px;
+
 }
 
-.welcome-right {
+
 	
-}
+
 
 .welcome-left {
 	flex-basis: 50%;
@@ -142,16 +149,38 @@ header {
 .todays-offer {
 	background-color: #f0f0f0;
 	display: flex;
+
 }
 
 .products {
 	display: flex;
 	gap: 30px;
+	flex-wrap: nowrap;
+	justify-content: space-between;
 }
 
 .cake {
 	border-radius: 5px;
+	background-color: white;
+	max-width: 25%; /* Make sure they don't exceed 25% width */
+    min-width: 0; /* Allows items to shrink */
+	
 }
+
+.cake img {
+	width: 100%; /* Ensure images scale properly */
+    height: auto;
+}
+	
+
+.cake h3 {
+	text-align: center;
+}
+
+.text-cake {
+	padding: 30px;
+}
+
 
 
 .pristup {
