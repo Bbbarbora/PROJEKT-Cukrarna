@@ -103,6 +103,7 @@ header {
 	display: inline-block;
 	border-radius: 20px;
 	padding: 10px 15px;
+	color: black;
 
 }
 .menu a:hover {
@@ -138,12 +139,35 @@ header {
 
 }
 
+.welcome a {
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 30px;
+	padding: 15px 40px;
+	color: white;
+	background-color: #f195b2;
 
+}
+
+.welcome a:hover {
+	background-color:#d2567d ;
+	color: white;
+}
 	
 
 
 .welcome-left {
 	flex-basis: 50%;
+}
+
+.welcome-right {
+	flex-basis: 50%;
+	max-width: 50%;
+}
+
+.welcome img {
+	max-width: 100%;
+
 }
 
 .todays-offer {
@@ -167,6 +191,15 @@ header {
 	
 }
 
+.cake h3 {
+	margin: 0
+
+}
+ .cake p {
+	margin-bottom: 0;
+ }
+
+
 .cake img {
 	width: 100%; /* Ensure images scale properly */
     height: auto;
@@ -178,7 +211,7 @@ header {
 }
 
 .text-cake {
-	padding: 30px;
+	padding: 20px;
 }
 
 
@@ -186,4 +219,16 @@ header {
 .pristup {
 	display: flex;
 	gap: 30px;
+}
+
+.right-text {
+	flex-basis: 50%;
+}
+
+.left-img {
+	flex-basis: 50%;
+}
+
+.left-img img {
+	max-width: 100%;
 }
